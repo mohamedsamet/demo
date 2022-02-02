@@ -3,7 +3,6 @@ package com.clean.demo.api;
 import com.clean.demo.domain.UserApp;
 import com.clean.demo.dto.UserDto;
 import com.clean.demo.service.UserService;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

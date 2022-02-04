@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface UserService {
     UserApp addUser(UserDto userDto);
-    List<UserApp> getUsers();
+    List<UserDto> getUsers();
 }

@@ -32,9 +32,9 @@ public class UserRessource {
     }
 
     @GetMapping()
-    public ResponseEntity<List<UserApp>> getUsers() {
+    public ResponseEntity<List<UserDto>> getUsers() {
         try {
-            List<UserApp> users = userService.getUsers();
+            List<UserDto> users = userService.getUsers();
             return ResponseEntity.ok().body(users);
         } catch (Exception exception) {
             return ResponseEntity.internalServerError().build();

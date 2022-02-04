@@ -22,3 +22,9 @@ https://www.baeldung.com/spring-boot
 * Spring boot register those Beans on the application context of the app.
 
 * @ConditionalOnClass, @ConditionalOnProperty, @ConditionalOnResource allow to make condition for creating beans regarding class presence or attribute value ...
+
+### Starters
+Starter POMs are a set of convenient dependency descriptors that you can include in your application. You get a one-stop-shop for all the Spring and related technology that you need, without having to hunt through sample code and copy-paste loads of dependency descriptors.
+* Increase pom manageability
+* Production-ready, tested & supported dependency configurations
+* Decrease the overall configuration time for the project

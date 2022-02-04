@@ -13,3 +13,12 @@ https://www.baeldung.com/spring-boot
 *  Provide production-ready features such as metrics, health checks, and externalized configuration
   
 *  Absolutely no code generation and no requirement for XML configuration
+
+####Auto configuration
+* @SpringBootApplication encapsulates @Configuration, @EnableAutoConfiguration, and @ComponentScan annotations with their default attributes.
+
+* Spring boot main class can hold bean methods with @Bean. and it is used to explicitly declare a single bean, rather than letting Spring do it automatically. It decouples the declaration of the bean from the class definition and lets you create and configure beans exactly how you choose.
+
+* Spring boot register those Beans on the application context of the app.
+
+* @ConditionalOnClass, @ConditionalOnProperty, @ConditionalOnResource allow to make condition for creating beans regarding class presence or attribute value ...

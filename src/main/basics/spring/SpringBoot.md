@@ -28,3 +28,8 @@ Starter POMs are a set of convenient dependency descriptors that you can include
 * Increase pom manageability
 * Production-ready, tested & supported dependency configurations
 * Decrease the overall configuration time for the project
+
+### Actuators
+Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
+
+Once this dependency is on the classpath, several endpoints are available for us out of the box. As with most Spring modules, we can easily configure or extend it in many ways.

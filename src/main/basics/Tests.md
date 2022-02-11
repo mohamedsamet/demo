@@ -15,7 +15,8 @@ So having an automated suite of unit tests that cover the production code is the
 keeping your design and architecture as clean as possible. Tests enable all the -ilities,
 because tests enable change.
 So if your tests are dirty, then your ability to change your code is hampered, and you
-begin to lose the ability to improve the structure of that code. The dirtier y
+begin to lose the ability to improve the structure of that code. The dirtier your tests, 
+the dirtier your code becomes. Eventually you lose the tests, and your code rots.
 
 ## Learning tests
 

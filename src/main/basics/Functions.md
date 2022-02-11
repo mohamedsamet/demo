@@ -1,6 +1,6 @@
 ## Step down rule
 
-### reading code from top to bottom
+### Reading code from top to bottom
 
 We want the code to read like a top-down narrative. We want every function to be followed by those at the next level of abstraction
 so that we can read the program, descending one level of abstraction at a time as we read down the list of functions. I call
@@ -18,7 +18,7 @@ then shouldn't be used anyway.
 
 ## Dependent Functions
 
-If one function call another, they shoud be vertically close, and the caller shoukd be above the callee, if at all possible.
+If one function call another, they should be vertically close, and the caller should be above the callee, if at all possible.
 This gives the program a natural flow. If the convention is followed reliably, readers will be able to trust that function
 definitions will follow shortly after their use.
 

@@ -33,3 +33,8 @@ Starter POMs are a set of convenient dependency descriptors that you can include
 Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
 
 Once this dependency is on the classpath, several endpoints are available for us out of the box. As with most Spring modules, we can easily configure or extend it in many ways.
+
+### Database alterations
+ * Spring Boot makes it really easy to manage our database changes. If we leave the default configuration, it'll search for entities in our packages and create the respective tables automatically.
+
+ * But we'll sometimes need more fine-grained control over the database alterations. And that's when we can use the data.sql and schema.sql files in Spring.
